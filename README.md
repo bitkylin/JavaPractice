@@ -1,2 +1,3 @@
-# JavaPractice
-简单java程序
+# Java简单练习项目
+##1. lmlLinkedList
+独立实现java链表
