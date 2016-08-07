@@ -1,5 +1,3 @@
-package com.lml.first;
-
 public class TestPrimeNumber {
 	/**
 	 * 生成所有的素数；izu存储生成的数组；i是检索素数的范围

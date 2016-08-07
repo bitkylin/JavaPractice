@@ -1,6 +1,4 @@
-package com.lml.first;
-
-public class TestPrimeNumber2 {
+public class GenPattern {
 	/**
 	 * 生成图案；LINE_NUM为生成图案的行数
 	 */
