@@ -1,12 +1,10 @@
+package simpleio;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
 public class IOoperation {
-
-	public IOoperation() {
-		// TODO Auto-generated constructor stub
-	}
 
 	public static void copyText(InputStream src, OutputStream dest) throws IOException {
 		try (InputStream input = src; OutputStream output = dest) {
