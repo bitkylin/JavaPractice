@@ -5,8 +5,12 @@
 ## 1. easyJavaProgram
 简单Java程序
 
-## 2. lmlLinkedList
+## 2. dataStructure
+数据结构的简单实现
+### 2.1 lmlLinkedList
 独立实现Java链表
+### 2.2 binarytree
+已初始化了一棵二叉树，在控制台输出此二叉树的深度
 
 ## 3. IO
 Java中简单的I/O操作
