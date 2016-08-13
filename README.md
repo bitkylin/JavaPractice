@@ -12,11 +12,18 @@
 ### 2.2 binarytree
 已初始化了一棵二叉树，在控制台输出此二叉树的深度
 
-## 3. IO
+## 3.ThreadDemo
+多线程演示
+### 3.1 multiThread
+简单多线程以及线程组的演示
+### 3.2 deadlock
+synchronized关键词以及线程死锁的演示。
+
+## 4. IO
 Java中简单的I/O操作
-### 3.1 IOoperation.copyText()
+### 4.1 IOoperation.copyText()
 简单的从输入流读取数据输出至输出流
-### 3.2 test
+### 4.2 test
 简单的文件复制程序，命令行操作指令：
 ```cmd
 java test A B
@@ -25,9 +32,5 @@ java test A B
 例：java test D:\lml.txt D:\lml2.txt
 *
 
-## 4.ThreadDemo
-多线程演示
-### 4.1 multiThread
-简单多线程以及线程组的演示
-### 4.2 deadlock
-synchronized关键词以及线程死锁的演示。
+## 5. Database
+简单MySQL数据库的操作，已实现“增”、“查”
