@@ -34,3 +34,10 @@ java test A B
 
 ## 5. Database
 简单MySQL数据库的操作，已实现“增”、“查”
+
+## 6. DesignPattern
+设计模式的简单实现
+### 6.1 Observer
+观察者模式的两种实现：
+- ./mydemo: 自行实现
+- ./nativeapply: 使用Java接口实现
