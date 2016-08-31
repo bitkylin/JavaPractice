@@ -5,6 +5,7 @@
 
 ## 1. easyJavaProgram
 简单Java算法程序,包括以下内容：
+
 1. squarepattern
 给定整数n，以下列方式打印n行：
 ```
@@ -22,11 +23,13 @@
   * * *
  * * * *
 ```
+
 3. TestPrimeNumber
 生成所有的素数
 
 ## 2. dataStructure
 数据结构的简单实现
+
 1. lmlLinkedList
 独立实现Java链表
 
@@ -35,6 +38,7 @@
 
 ## 3.ThreadDemo
 多线程演示
+
 1. multiThread
 简单多线程以及线程组的演示
 
@@ -43,6 +47,7 @@ synchronized关键词以及线程死锁的演示。
 
 ## 4. IO
 Java中简单的I/O操作
+
 1. IOoperation.copyText()
 简单的从输入流读取数据输出至输出流
 
