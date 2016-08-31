@@ -6,6 +6,7 @@ Java中简单的I/O操作
 
 ## 2. IOoperation.copyText()
 简单的从输入流读取数据输出至输出流
+
 ## 3. test
 简单的文件复制程序，命令行操作指令：
 ```cmd
