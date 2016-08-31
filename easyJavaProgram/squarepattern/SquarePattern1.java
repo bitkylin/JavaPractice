@@ -1,7 +1,7 @@
 package squarepattern;
 
 /**
- * （算法1）
+ * （算法2）
  * 给定整数n，以下列方式打印n行：
  * 1*2*3*4
  * 9*10*11*12
@@ -10,9 +10,9 @@ package squarepattern;
  * <p>
  * 各行输出只能由数字和"*"组成，不应有空格
  */
-public class squarePattern {
+public class SquarePattern1 {
     public static void main(String[] args) {
-        squarePatternPrint(4);
+        squarePatternPrint(6);
     }
 
     /**
@@ -21,16 +21,17 @@ public class squarePattern {
      * @param n 输入整数 n (1 <= n <= 100)
      */
     public static void squarePatternPrint(int n) {
-        compute(1, n);
-    }
+        int[] inits = new int[n];
 
-    private static void compute(int i, int n) {
-        lmlPrint(i, n);
-        if ((i + 2) <= n) {
-            compute(i + 2, n);
+        for (int i = 0, k = 0; k < n; i++) {
+            if (++k <= n)
+                inits[i] = k;
+            if (++k <= n)
+                inits[n - i - 1] = k;
         }
-        if (++i <= n)
+        for (int i : inits) {
             lmlPrint(i, n);
+        }
     }
 
     private static void lmlPrint(int i, int n) {
