@@ -1,17 +1,27 @@
+package consoleinput;
+
+import java.util.Scanner;
+
 public class GenPattern {
-	/**
-	 * Éú³ÉÍ¼°¸£»LINE_NUMÎªÉú³ÉÍ¼°¸µÄÐÐÊý
-	 */
-	public static void main(String args[]) {
-		final int LINE_NUM = 10;
-		for (int i = 1; i <= LINE_NUM; i++) {
-			for (int j = LINE_NUM - i; j > 0; j--) {
-				System.out.print(" ");
-			}
-			for (int j = 0; j < i; j++) {
-				System.out.print("* ");
-			}
-			System.out.println("");
-		}
-	}
+    /**
+     * ç”Ÿæˆå›¾æ¡ˆï¼š
+     * |    *
+     * |   * *
+     * |  * * *
+     * | * * * *
+     * LINE_NUMä¸ºç”Ÿæˆå›¾æ¡ˆçš„è¡Œæ•°
+     */
+    public static void main(String args[]) {
+        System.out.print("ç”Ÿæˆå›¾æ¡ˆçš„è¡Œæ•°ä¸ºï¼š");
+        final int LINE_NUM = new Scanner(System.in).nextInt();
+        for (int i = 1; i <= LINE_NUM; i++) {
+            for (int j = LINE_NUM - i; j > 0; j--) {
+                System.out.print(" ");
+            }
+            for (int j = 0; j < i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println("");
+        }
+    }
 }

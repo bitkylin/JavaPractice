@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * 控制台输入n个单词或数字
+ * 控制台输入n个单词或数字,可将输入的字符串转换为Integer集合
  */
 public class inputWords {
 
@@ -21,7 +21,7 @@ public class inputWords {
         }
         System.out.println("转化为数字吗？[y/n]");
         if (scanner.nextLine().equals("y")) {
-            List<Integer> list = new ArrayList<>();
+            List<Integer> list = new ArrayList<>(strings.length);
             for (String s : strings) {
                 list.add(Integer.parseInt(s));
             }

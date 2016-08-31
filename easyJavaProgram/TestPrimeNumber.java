@@ -1,6 +1,8 @@
+package consoleinput;
+
 public class TestPrimeNumber {
 	/**
-	 * Éú³ÉËùÓĞµÄËØÊı£»izu´æ´¢Éú³ÉµÄÊı×é£»iÊÇ¼ìË÷ËØÊıµÄ·¶Î§
+	 * ç”Ÿæˆæ‰€æœ‰çš„ç´ æ•°ï¼›izuå­˜å‚¨ç”Ÿæˆçš„æ•°ç»„ï¼›iæ˜¯æ£€ç´¢ç´ æ•°çš„èŒƒå›´
 	 */
 	public static void main(String args[]) {
 		System.out.println(2);
@@ -20,7 +22,7 @@ public class TestPrimeNumber {
 				System.out.println(i);
 			}
 		}
-		System.out.println("Ò»¹²ÓĞ" + j + "¸öÊı×Ö");
+		System.out.println("ä¸€å…±æœ‰" + j + "ä¸ªæ•°å­—");
 	}
 
 }
