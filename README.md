@@ -3,7 +3,15 @@
 本项目用于Java程序的练习，内含多个Java工程，会时常更新。
 
 ## 1. easyJavaProgram
-简单Java程序
+简单Java算法程序
+### 1.1 squarepattern
+给定整数n，以下列方式打印n行：
+```
+1*2*3*4
+9*10*11*12
+13*14*15*16
+5*6*7*8
+```
 
 ## 2. dataStructure
 数据结构的简单实现
