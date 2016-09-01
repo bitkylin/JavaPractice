@@ -22,3 +22,10 @@
 
 ## 3. TestPrimeNumber
 生成所有的素数
+
+## 4. ArraySortQuantity
+对输入的数组进行排序，排序规则：
+按数组中元素出现的次数进行排序，出现次数多的元素排在前面
+
+- .ArraySortQuantity: 使用JDK7及以下语法
+- .ArraySortQuantityLambda: 使用JDK8语法

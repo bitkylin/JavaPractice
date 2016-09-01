@@ -27,6 +27,9 @@
 3. TestPrimeNumber
 生成所有的素数
 
+4. ArraySortQuantity
+对输入的数组，按照数组中元素出现的次数进行排序，出现次数多的元素排在前面
+
 ## 2. dataStructure
 数据结构的简单实现
 
